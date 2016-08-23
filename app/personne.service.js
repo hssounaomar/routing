@@ -12,9 +12,10 @@ var core_1 = require('@angular/core');
 var mock_personnes_1 = require('./mock.personnes');
 var PersonneService = (function () {
     function PersonneService() {
+        this.personnesUrl = 'app/personnes'; // URL to web api
     }
     PersonneService.prototype.getPersonnes = function () {
-        return Promise.resolve(mock_personnes_1.PERSONNES);
+        return Promise.resolve(mock_personnes_1.personnes);
     };
     PersonneService = __decorate([
         core_1.Injectable(), 
