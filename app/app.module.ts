@@ -16,6 +16,8 @@ import { PersonneComponent }  from './personne.component';
 import { PersonneService }  from './personne.service';
 import { DashboardComponent } from './dashboard.component';
 import { HeroDetailComponent } from './hero-detail.component';
+import { HeroSearchComponent } from './hero-search.component';
+
 @NgModule({
   imports: [
     BrowserModule,
@@ -27,7 +29,8 @@ import { HeroDetailComponent } from './hero-detail.component';
     AppComponent,
     PersonneComponent,
     DashboardComponent,
-    HeroDetailComponent
+    HeroDetailComponent,
+    HeroSearchComponent
   ],
   providers: [
     PersonneService,

@@ -22,6 +22,7 @@ var personne_component_1 = require('./personne.component');
 var personne_service_1 = require('./personne.service');
 var dashboard_component_1 = require('./dashboard.component');
 var hero_detail_component_1 = require('./hero-detail.component');
+var hero_search_component_1 = require('./hero-search.component');
 var AppModule = (function () {
     function AppModule() {
     }
@@ -37,7 +38,8 @@ var AppModule = (function () {
                 app_component_1.AppComponent,
                 personne_component_1.PersonneComponent,
                 dashboard_component_1.DashboardComponent,
-                hero_detail_component_1.HeroDetailComponent
+                hero_detail_component_1.HeroDetailComponent,
+                hero_search_component_1.HeroSearchComponent
             ],
             providers: [
                 personne_service_1.PersonneService,
